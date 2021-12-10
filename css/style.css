@@ -1,0 +1,692 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h5 {
+    padding-top: 0;
+}
+
+p {
+    font-size: 1rem;
+}
+
+img {
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffb600;
+    border-radius: 3px;
+}
+
+.clr {
+    clear: both;
+}
+
+/* HEADER */
+
+.custom-logo {
+    width: 120px;
+    margin-left: 30px;
+}
+
+.custom-ul {
+    margin-right: 100px;
+    font-family: Montserrat;
+    font-weight: 700;
+}
+
+.custom-ul .nav-item a:hover {
+    border-top: 3px solid #de4b38;
+    padding: 10px;
+    transition: all .3s;
+}
+
+.background {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+.content h1 {
+    color: white;
+    text-align: center;
+    flex-wrap: wrap;
+    padding-top: 200px;
+    font-size: 5rem;
+    padding-bottom: 20px;
+    font-family: Montserrat;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Montserrat;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.color-btn {
+    background-color: #de4b38;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-family: Montserrat;
+}
+
+/* FEATURED SECTION */
+
+.featured-section {
+    padding: 50px;
+}
+
+.my-row {
+    text-align: center;
+}
+
+.parent {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-left: -35px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.child-one, .child-two, .child-three, .child-four {
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-right: 0;
+}
+
+.fa-users, .fa-heart, .fa-handshake, .fa-money-bill-alt {
+    background-color: #de4b38;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    line-height: 80px;
+    color: white;
+}
+
+h5 {
+    font-family: Montserrat;
+    padding-top: 10px;
+}
+
+.p-one, .p-two, .p-three, .p-four {
+    color: #888;
+    font-size: .8rem;
+    padding-bottom: 10px;
+}
+
+/* BLOG SECTION */
+
+.blog-section {
+    background-color: #c2bfbf;
+    padding: 100px;
+    display: flex;
+    text-align: center;
+}
+
+.blog-section h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 20px;
+}
+
+.left-side, .right-side {
+    color: #606060;
+    line-height: 2rem;
+    font-size: 1rem;
+    text-align: left;
+    padding-top: 30px;
+}
+
+.btn-blog {
+    margin-top: 75px;
+    background-color: #de4b38;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.btn-blog span {
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: monospace;
+}
+
+.btn-blog span:hover {
+    color: black;
+}
+
+/* GRACE AND TRUTH SECTION */
+
+.section-background {
+    background-image: url(../img/church-15.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+.title {
+    text-align: center;
+    padding-top: 7%;
+}
+
+.title h4 {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+}
+
+.title p {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    color: black;
+    padding-top: 10px;
+    line-height: 3.5rem;
+}
+
+.button {
+    text-align: center;
+}
+
+.button .btn {
+    background: none;
+    border: 2px solid black;
+    color: black;
+    border-radius: 20px;
+    width: 220px;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+.button .btn:hover {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+}
+
+/* LATEST NEWS SECTION */
+
+.latest-news {
+    margin-bottom: 50px;
+}
+
+.card {
+    border: none;
+}
+
+.news-title {
+    text-align: center;
+}
+
+.news-title h3 {
+    font-family: Montserrat;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.card-title {
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.card-body a {
+    color: #606060;
+}
+
+.card-body a:hover {
+    color: tomato;
+}
+
+.sub {
+    font-size: .8rem;
+    padding-top: 0;
+}
+
+.sub h5 {
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.card-text {
+    color: #888;
+    text-align: left;
+    font-size: 1rem;
+    padding-top: 10px;
+}
+
+.fa-long-arrow-alt-right {
+    color: black;
+    font-size: 1.5rem;
+    margin-top: none;
+}
+
+/* QUOTE */
+
+.quote-background {
+    background-image: url(../img/church-9.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+.quote-title {
+    color: white;
+    padding: 50px;
+}
+
+.quote-title h4 {
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 55px;
+}
+
+.quote-title p {
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+}
+
+.quote-button {
+    text-align: center;
+}
+
+.quote-button a {
+    color: white;
+    font-family: cursive;
+    font-size: 1.1rem;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+.quote-button a:hover {
+    color: black;
+    border: 2px solid white;
+    background-color: white;
+}
+
+/* WANNA JOIN */
+
+.join-community {
+    background-color: tomato;
+    padding: 50px;
+    height: 300px;
+    text-align: center;
+}
+
+.join-text {
+    text-align: center;
+}
+
+.join-h4 {
+    color: white;
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.join-p {
+    color: white;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 2rem;
+    padding-top: 20px;
+}
+
+.btn-outline-light {
+    text-align: center;
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+/* UPPER FOOTER */
+
+.upper-footer {
+    background-color: #1a1b1e;
+    padding-bottom: 50px;
+}
+
+.about-us {
+    padding-right: 20px;
+    margin-left: -10px;
+}
+
+.about-us .p1, .p2 {
+    text-align: left;
+    font-size: .8rem;
+}
+
+.about-us h4, .hours h4, .map h4 {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.open-time {
+    line-height: 1rem;
+}
+
+.day01, .day02, .day03, .day04, .day05, .day06 {
+    color: white;
+    border-bottom: 1px solid #606060;
+}
+
+.bg {
+    background-image: url(../img/map.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* opacity: .2; */
+}
+
+.address, .phone, .email, .wesite {
+    color: white;
+    border-bottom: 1px solid #606060;
+}
+
+.icon {
+    padding-right: 5px;
+    line-height: 40px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #151515;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.left-footer {
+    font-size: 1rem;
+    font-family: fantasy;
+    font-weight: 700;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.left-footer p {
+    margin-bottom: 0%;
+}
+
+.right-footer {
+    font-size: 2rem;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.social-icons a {
+    padding-left: 15px;
+    color: white;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+
+    /* UPPER SECTION */
+
+    .background {
+        height: 500px;
+    }
+
+    .content h1 {
+        padding-top: 140px;
+        font-size: 4rem;
+        padding-bottom: 0;
+    }
+    
+    /* FEATURED SECTION */
+
+    .parent {
+        margin-top: 50px;
+        margin-left: -15px;
+    }
+
+    .p-one, .p-two, .p-three, .p-four {
+        font-size: 14px;
+        justify-items:auto;
+        line-height: 1.86em;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    /* BLOG SECTION */
+
+    .blog-section {
+        padding: 50px;
+        display: flex;
+    }
+
+    .blog-section h2 {
+        font-size: 60px;
+    }
+
+    .left-side, .right-side {
+        line-height: 1.9rem;
+        font-size: .9rem;
+        padding-top: 30px;
+        flex-direction: row;
+    }
+
+    .btn-blog {
+        margin-top: 75px;
+        background-color: #de4b38;
+        border-radius: 20px;
+        width: 250px;
+        height: 50px;
+        padding-top: 10px;
+    }
+
+    .btn-blog span {
+        color: white;
+        font-weight: 700;
+        font-size: 1.5rem;
+        font-family: monospace;
+    }
+
+    .btn-blog span:hover {
+        color: black;
+    }
+
+    /* GRACE AND TRUTH SECTION */
+
+    .title {
+        padding-top: 10%;
+    }
+
+    .title p {
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        color: black;
+        padding-top: 15px;
+        line-height: 2.5rem;
+    }
+
+    .button .btn {
+        margin-top: 60px;
+    }
+
+    /* QUOTE */
+
+    .quote-title h4 {
+        text-align: center;
+        padding-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .quote-title p {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+@media (max-width: 576px) {
+
+    /* UPPER SECTION */
+
+    .background {
+        height: 300px;
+    }
+
+    .content h1 {
+        padding-top: 70px;
+        font-size: 2rem;
+    }
+
+    /* FEATURED SECTION */
+
+    .parent {
+        margin-top: 30px;
+    }
+
+    .p-one, .p-two, .p-three, .p-four {
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+
+    /* BLOG SECTION */
+
+    .blog-section {
+        padding: 70px;
+    }
+
+    .blog-section h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .left-side, .right-side {
+        padding-top: 0px;
+        padding-bottom: 15px;
+    }
+
+    .btn-blog {
+        margin-top: 30px;
+        width: 200px;
+        height: 45px;
+    }
+
+    .btn-blog span {
+        color: white;
+        font-weight: 700;
+        font-size: 1.3rem;
+        font-family: monospace;
+    }
+
+    /* GRACE AND TRUTH SECTION */
+
+    .title {
+        padding-top: 10%;
+    }
+
+    .title p {
+        font-family: Montserrat;
+        font-size: 30px;
+        font-weight: 700;
+        color: black;
+        padding-top: 35px;
+        line-height: 2.5rem;
+    }
+
+    .button .btn {
+        margin-top: 40px;
+    }
+
+    /* QUOTE */
+
+    .quote-title h4 {
+        text-align: center;
+        padding-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .quote-title p {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+
+    /* WANNA JOIN */
+
+    .join-community {
+        padding: 50px;
+        height: 300px;
+    }
+
+    .join-h4 {
+        font-size: 2rem;
+    }
+
+    .join-p {
+        font-size: 1.5rem;
+        padding-top: 20px;
+    }
+
+    .btn-outline-light {
+        width: 200px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+
+    /* FOOTER */
+
+    .left-footer {
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+
+    .left-footer p {
+        font-size: .9rem;
+        font-family: Montserrat;
+        font-weight: 700;
+    }
+
+    .right-footer {
+        padding-right: 30px;
+    }
+
+    .social-icons a {
+        padding-left: 12px;
+        font-size: 1.5rem;
+    }
+
+}
